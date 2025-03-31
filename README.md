@@ -39,36 +39,6 @@ src/
 │       └── backend/        # Booking service backend
 ```
 
-## Getting Started
-
-### Frontend
-1. Clone the repository
-2. Install dependencies: `npm install`
-3. Start the frontend: `npm run dev`
-
-### Backend Services
-Each microservice has its own Python backend:
-
-#### User Service
-```bash
-cd src/microservices/user/backend
-pip install -r requirements.txt
-python server.py
-```
-
-#### Car Service
-```bash
-cd src/microservices/car/backend
-pip install -r requirements.txt
-python server.py
-```
-
-#### Booking Service
-```bash
-cd src/microservices/booking/backend
-pip install -r requirements.txt
-python server.py
-```
 
 ## Features
 - User registration and authentication
