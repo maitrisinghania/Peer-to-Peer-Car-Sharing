@@ -1,5 +1,5 @@
 
-# ShareARider - Car Sharing Platform
+# Peer to Peer - Car Sharing Platform
 
 ## Overview
 ShareARider is a peer-to-peer car sharing platform that allows car owners to rent out their vehicles when they're not using them, and renters to find convenient, affordable transportation.
