@@ -25,9 +25,7 @@ The project follows a microservices architecture with three main services:
 frontend/                # React frontend application
 ├── src/
 │   ├── components/      # Shared UI components
-│   ├── layouts/         # Layout components
 │   ├── lib/             # Shared utility functions
-│   ├── pages/           # Main pages
 │   └── types/           # TypeScript type definitions
 │
 microservices/
