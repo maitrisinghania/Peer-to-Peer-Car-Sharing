@@ -1,8 +1,8 @@
 
-# ShareARider - Car Sharing Platform
+# Peer to Peer - Car Sharing Platform
 
 ## Overview
-ShareARider is a peer-to-peer car sharing platform that allows car owners to rent out their vehicles when they're not using them, and renters to find convenient, affordable transportation.
+This project is a peer-to-peer car sharing platform that allows car owners to rent out their vehicles when they're not using them, and renters to find convenient, affordable transportation.
 
 ## Microservices Architecture
 The project follows a microservices architecture with three main services:
@@ -22,53 +22,26 @@ The project follows a microservices architecture with three main services:
 
 ## Project Structure
 ```
-src/
-├── components/             # Shared UI components
-├── layouts/                # Layout components
-├── lib/                    # Shared utility functions
-├── pages/                  # Main pages
-├── microservices/
-│   ├── user/
-│   │   ├── frontend/       # User-related frontend components
-│   │   └── backend/        # User service backend
-│   ├── car/
-│   │   ├── frontend/       # Car-related frontend components
-│   │   └── backend/        # Car service backend
-│   └── booking/
-│       ├── frontend/       # Booking-related frontend components
-│       └── backend/        # Booking service backend
+frontend/                # React frontend application
+├── src/
+│   ├── components/      # Shared UI components
+│   ├── layouts/         # Layout components
+│   ├── lib/             # Shared utility functions
+│   ├── pages/           # Main pages
+│   └── types/           # TypeScript type definitions
+│
+microservices/
+├── user/
+│   ├── frontend/        # User-related frontend components
+│   └── backend/         # User service backend (FastAPI)
+├── car/
+│   ├── frontend/        # Car-related frontend components
+│   └── backend/         # Car service backend (FastAPI)
+└── booking/
+    ├── frontend/        # Booking-related frontend components
+    └── backend/         # Booking service backend (FastAPI)
 ```
 
-## Getting Started
-
-### Frontend
-1. Clone the repository
-2. Install dependencies: `npm install`
-3. Start the frontend: `npm run dev`
-
-### Backend Services
-Each microservice has its own Python backend:
-
-#### User Service
-```bash
-cd src/microservices/user/backend
-pip install -r requirements.txt
-python server.py
-```
-
-#### Car Service
-```bash
-cd src/microservices/car/backend
-pip install -r requirements.txt
-python server.py
-```
-
-#### Booking Service
-```bash
-cd src/microservices/booking/backend
-pip install -r requirements.txt
-python server.py
-```
 
 ## Features
 - User registration and authentication
