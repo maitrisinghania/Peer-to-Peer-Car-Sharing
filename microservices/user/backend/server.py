@@ -88,7 +88,5 @@ async def delete_user(user_id: str, db: Session = Depends(get_db)):
     db.commit()
     return None
 
-# Authentication endpoints would be implemented here with Auth0 integration
-
 if __name__ == "__main__":
     uvicorn.run("server:app", host="0.0.0.0", port=8001, reload=True)
