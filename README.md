@@ -32,13 +32,12 @@ frontend/                # React frontend application
 │
 microservices/
 ├── user/
-│   ├── frontend/        # User-related frontend components
 │   └── backend/         # User service backend (FastAPI)
+│    
 ├── car/
-│   ├── frontend/        # Car-related frontend components
 │   └── backend/         # Car service backend (FastAPI)
+│   
 └── booking/
-    ├── frontend/        # Booking-related frontend components
     └── backend/         # Booking service backend (FastAPI)
 ```
 
